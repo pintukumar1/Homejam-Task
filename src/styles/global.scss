@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Nunito:wght@200;300;400&family=Quattrocento&display=swap");
+
+html {
+	/* GLOBAL STYLING */
+	* {
+		padding: 0;
+		margin: 0;
+	}
+	*:focus {
+		outline: 0;
+	}
+	a {
+		text-decoration: none;
+		color: #0259eb !important;
+	}
+
+	/* BODY STYLING */
+	body {
+		min-height: 100vh;
+
+		font-family: "Libre Baskerville", sans-serif !important;
+
+		.underline-this {
+			border-bottom: 5px solid #0259eb;
+			padding-bottom: 5px;
+		}
+
+		/* FOOTER CSS */
+	}
+}
